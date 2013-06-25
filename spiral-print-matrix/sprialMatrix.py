@@ -1,10 +1,11 @@
-def print_spiral(l, start=0, _end=None):
+def print_spiral(l, start=0, end=None):
     """
     This is the simple solution using python, very optimized for readability.
     It is based on recurssion, each time we print only the outer elements,
     then call the same function again, modifing the start and end pointers.
+    Note: this is Python 2.7
     """
-    end = _end or len(l[start])
+    end = end or len(l[start])
     for i in range(start, end): 
         print l[start][i]
 
