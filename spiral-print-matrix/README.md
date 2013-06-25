@@ -1,5 +1,6 @@
 Sprial Matrix
 =============
+Note: see the [Raw version](https://raw.github.com/tabdulradi/interviews-questions-and-answers/master/spiral-print-matrix/README.md)
 
 Input: a square matrix, like:  
 Example 1:  
@@ -16,7 +17,7 @@ Or Example 2:
 The square matrix maybe a 2 dimensional array, or Array of Arrays, or lists of lists (based on the programming language).  
 You should print the items of the Matrix in the spiral way, like this:  
         1 > 2 > 3  
-                 V  
+                V  
         4 >  5  6  
         ^       V
         7 < 8 < 9  
@@ -25,7 +26,7 @@ so that the output is similar to the following:
 
 and for example 2:  
         1  > 2  > 3  > 4
-                         V
+                       V
         5  > 6  > 7    8
         ^         V    V
         9    10 < 11   12
